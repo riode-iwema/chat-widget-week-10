@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="iiiiii.css" />
+    <title>ChatBot</title>
+  </head>
+  <body>
+    <!-- toggle -->
+    <button class="chatbot-trigger">
+      <i class="fa-solid fa-chevron-down icon" style="color: #ffffff"></i>
+    </button>
+    <!-- chat frame -->
+    <main class="chatbot">
+      <section class="profile">
+        <img src="Widget Header (1).png" alt="profile picture" />
+      </section>
+      <section>
+        <div class="msg-history">
+          <div class="align-dp">
+            <img src="Avatars.svg" alt="image icon" />
+            <div class="chat incoming-msg">
+              <h4>👋 Hi there! How can I help?</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chat-textarea">
+        <textarea id="user-input" placeholder="Type a reply..."></textarea>
+        <div class="textarea-icons">
+          <i
+            id="emojis"
+            class="fa-regular fa-face-smile"
+            style="color: #bebec0"
+          ></i
+          ><i
+            id="link"
+            class="fa-solid fa-paperclip"
+            style="color: #bebec0"
+          ></i>
+          <span id="send-btn">
+            <i class="fa-regular fa-paper-plane" style="color: #bebec0"></i>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <script src="iiiiii.js"></script>
+  </body>
+</html>
