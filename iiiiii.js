@@ -59,7 +59,7 @@ const outgoingMsg = () => {
 
   const incomingChatDiv = createChatDiv(currentResponse, "incoming-msg");
   const incomingImage = document.createElement("img");
-  incomingImage.classList.add("image-icon");
+  incomingImage.classList.add("dp");
   incomingImage.src = "avatars (1).png";
   incomingImage.alt = "dp";
 
